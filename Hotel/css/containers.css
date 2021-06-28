@@ -1,0 +1,154 @@
+.center {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.center-info {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 90%;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.social-medias nav ul li {
+  display: inline-block;
+  padding: 2px;
+}
+.main-slider div {
+  display: flex;
+}
+.main-header {
+  width: 100%;
+  background-color: #fff;
+}
+.main-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.main-header nav ul li:hover {
+  background: #9a3e6f;
+}
+.sub-main-background {
+  padding: 40px 0 20px 0;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #ececec;
+}
+.sub-main-text {
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+}
+.sub-main-background p {
+  line-height: 30px;
+  flex: 1;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+}
+.info-card {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  padding: 5px 0 5px 15px;
+}
+.card img {
+  width: 100%;
+}
+.eye {
+  width: 60px;
+  height: 51px;
+  background-color: #9a3e6f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-card {
+  position: relative;
+  display: flex;
+}
+.img-zoom {
+  position: absolute;
+  background: url("/img/zoom_image.png") center center no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.fade {
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: opacity, background-color;
+}
+.fade:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.background {
+  background-color: #ececec;
+}
+.cards-second {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 340px);
+  gap: 30px;
+  padding: 40px 0;
+}
+.on {
+  background-color: white;
+}
+.our-services {
+  padding: 60px 0;
+}
+.grid-services {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  gap: 30px;
+}
+.op-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-info {
+  padding-top: 15px;
+  text-align: center;
+}
+.text-info h3,
+p {
+  margin-bottom: 15px;
+}
+.hover {
+  z-index: -1;
+  position: absolute;
+}
+.no-hover {
+  opacity: 1;
+  transition-property: opacity;
+  transition-delay: 0.2s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.no-hover:hover {
+  opacity: 0;
+}
+.special-offers {
+  padding: 40px 0;
+  background: #ececec;
+}

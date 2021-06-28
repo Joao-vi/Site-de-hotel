@@ -1,0 +1,1 @@
+$(".slider-offers").slick({});
